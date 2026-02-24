@@ -14,3 +14,4 @@ npm run dev   # or npm start
 ```
 
 Open Swagger UI at: http://localhost:3000/api-docs
+Render Deployment Link: https://nosql-module-2-prj.onrender.com/api-docs/
