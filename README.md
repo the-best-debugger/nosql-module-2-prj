@@ -1,10 +1,10 @@
-# Items API - Demo
+# Users API - Demo
 
 This small Express API demonstrates:
 
 - Centralized/global error handling middleware that returns JSON errors.
 - Swagger documentation via `swagger-jsdoc` and `swagger-ui-express`.
-- Simple CRUD endpoints for `/items` (in-memory store).
+- Simple CRUD endpoints for `/users` (in-memory store).
 
 Running locally:
 

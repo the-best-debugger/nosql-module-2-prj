@@ -1,7 +1,7 @@
 const express = require('express');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swaggerSpec');
-const itemsRouter = require('./routes/items');
+const usersRouter = require('./routes/user.routes');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-app.use('/items', itemsRouter);
+app.use('/users', usersRouter);
 
 // 404 handler
 app.use((req, res, next) => {
